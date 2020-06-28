@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.btn1
+{
+    background-color: rgba(149, 211, 228, 0.65); 
+    color: black; 
+    border: 1px solid #179dc5;;
+  
+}
+.btn1:hover {
+  background-color: #179dc5;
+  color: white;
+}
+.btn2
+{
+    background-color: rgb(203, 187, 171); 
+    color: black; 
+    border: 1px solid #179dc5;
+  
+}
+.btn2:hover {
+  background-color: rgba(189, 118, 48, 0.733);
+  color: white;
+  border: 1px solid rgba(189, 118, 48, 0.733);
+}
+input:focus
+{
+     outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+#box-3 {
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://www.myfreetextures.com/wp-content/uploads/2019/11/abstract-black-grunge-texture-900x898.jpg');
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#featured-models {
+  padding: 20px 0px 40px;
+  background-image: url("https://www.myfreetextures.com/wp-content/uploads/2019/11/abstract-black-grunge-texture-900x898.jpg");
+  background-color: #1c1c1c;
+  background-position: top center;
+  color: #999999;
+  background-attachment: fixed;
+  text-align: center;
+  box-shadow: 0 100px 100px -100px #000 inset;
+  border-top: 8px solid #333;
+}
